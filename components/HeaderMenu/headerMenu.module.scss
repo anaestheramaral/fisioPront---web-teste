@@ -1,0 +1,39 @@
+.container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  strong {
+    font-size: 2rem;
+  }
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--blue-200);
+  border: none;
+  border-radius: 8px;
+  color: var(--gray-dark);
+  height: 3rem;
+  padding: 0 2rem;
+
+  svg {
+    transform: rotate(180deg);
+    margin-right: 0.5rem;
+  }
+
+  margin-left: 30px;
+}
+
+.buttonsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+
+}
